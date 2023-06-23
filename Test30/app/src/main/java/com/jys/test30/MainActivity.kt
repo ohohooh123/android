@@ -10,14 +10,14 @@ import com.jys.test30.databinding.ActivityMainBinding
 import java.lang.NumberFormatException
 
 class MainActivity : AppCompatActivity() {
-    var a = 50
-    var flag = 1
+
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.etEmail.imeOptions = EditorInfo.IME_ACTION_SEND
@@ -33,7 +33,9 @@ class MainActivity : AppCompatActivity() {
 
     }
     fun Login(v: View) {
-        Toast.makeText(this,"성공!",Toast.LENGTH_SHORT).show()
+        if (binding.etEmail.text.toString() == "abc") {
+            Toast.makeText(this,"성공!",Toast.LENGTH_SHORT).show()
+        }
     }
 
 }
