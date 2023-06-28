@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "472659391708",
+    "firebase_url": "https://jyseofirst-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "jyseofirst",
+    "storage_bucket": "jyseofirst.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472659391708:android:ea4314f99edc9413b3b019",
+        "android_client_info": {
+          "package_name": "com.jys.firebaseChat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472659391708-522p99ccm9begd5u10apraev1272qlgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqBkhe1QzYpqd-PE91rVVXc0N7Vtv8vSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472659391708-522p99ccm9begd5u10apraev1272qlgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472659391708:android:b771ac98f9009370b3b019",
+        "android_client_info": {
+          "package_name": "com.jys.firebasechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472659391708-522p99ccm9begd5u10apraev1272qlgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqBkhe1QzYpqd-PE91rVVXc0N7Vtv8vSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472659391708-522p99ccm9begd5u10apraev1272qlgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
