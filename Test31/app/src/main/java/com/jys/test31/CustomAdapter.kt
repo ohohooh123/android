@@ -44,6 +44,7 @@ class CustomAdapter(val context:Context, val DataList:ArrayList<Data>) : BaseAda
         val profile = binding.ivCustom
         val name = binding.tvCustom
         val data = DataList[0]
+        //아.. 이겝머냐?>??
 
         profile.setImageResource(data.profile)
         name.text = data.name
